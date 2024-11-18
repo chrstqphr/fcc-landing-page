@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+html {
+    width: 100%;
+    background: radial-gradient(#E6E1DF, #A6958C);
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    padding-top: 120px;
+    
+}
+
+header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    
+    background-color: rgb(14, 46, 33);
+}
+
+#logo {
+    display: flex;
+}
+
+nav {
+    /* position: fixed; */
+    display: flex;
+    /* flex-direction: column; */
+    gap: 50px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+#header-img {
+    width: 50px;
+    margin: 5px 20px 5px 0px;
+}
+
+.hero-text {
+    color: #c3322b;
+    /* -webkit-text-stroke: #c3322b 2px; */
+}
+
+.features,
+.form {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.form {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #c3322b;
+    padding: 10px;
+}
+
+.form-title,
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #c3322b;
+}
+
+#submit,
+#email {
+    border-radius: 20px;
+    background: transparent;
+    border: 3px solid #c3322b;
+    padding: 10px;
+    color:#c3322b;
+    font-weight: 700;
+}
+
+iframe {
+    max-width: 560px;
+    height: 315px;
+    margin-bottom: 100px;
+}
+
+.video-div {
+    display: flex;
+    justify-content: center;
+
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+    color: blanchedalmond;
+    font-weight: 400;
+    justify-content: space-between;
+    background-color: rgb(14, 46, 33);
+    padding: 0 40px 0 40px;
+
+}
+
+#price-div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.p1, .p2, .p3 {
+    /* display: flex; */
+    border-radius: 20px;
+    flex-direction: column;
+    text-align: center;
+    border: 3px solid #c3322b;
+    padding: 20px;
+    min-width: 25%;
+    justify-content: space-evenly;
+    /* gap: 20px; */
+}
+
+#submit:hover {
+    cursor: pointer;
+    color:blanchedalmond;
+    background-color: #c3322b;
+}
+
+a:hover {
+    cursor: pointer;
+    color:blanchedalmond;
+    background-color: #c3322b;
+    border-radius: 20px;
+    padding: 10px;
+}
+
